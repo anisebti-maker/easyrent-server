@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 const TOKEN = "8690479197:AAHbBq3efzBLb0zSkqFbEO-4qgBdr1a_mKk";
-const CHAT_ID = "1003562619802";
+const CHAT_ID = "-1003562619802";
 
 app.post('/reservation', async (req, res) => {
   const { name, phone, ds, de, car, price, total, msg, ins } = req.body;
